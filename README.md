@@ -1,125 +1,203 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg">
-  <img alt="Wael Gharbi, AI Product & Innovation Lead" src="./header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img alt="Wael Gharbi, AI Product & Innovation Lead" src="./assets/header-light.svg" width="100%">
 </picture>
 
-<p align="left">
-  <a href="https://waelgharbi.com"><img src="https://img.shields.io/badge/Portfolio-waelgharbi.com-5C26FF?style=flat-square" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/gharbiwael"><img src="https://img.shields.io/badge/LinkedIn-gharbiwael-0A0A0A?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Based%20in-Paris-0A0A0A?style=flat-square" alt="Paris">
-  <img src="https://img.shields.io/badge/Open%20to-AI%20product%20collabs-5C26FF?style=flat-square" alt="Open to collabs">
+<br>
+<br>
+
+<p align="center">
+  <a href="https://waelgharbi.com"><img src="https://img.shields.io/badge/Portfolio-waelgharbi.com-5C26FF?style=for-the-badge" alt="Portfolio"></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/gharbiwael"><img src="https://img.shields.io/badge/LinkedIn-gharbiwael-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Paris-France-0A0A0A?style=for-the-badge" alt="Paris">
 </p>
 
-I design and ship AI products: agentic systems, SaaS platforms and automated workflows, taken from a business problem all the way to production. My background mixes product, engineering, consulting and media, which is why I care as much about adoption and data value as about the model itself.
+<br>
 
-```yaml
-role:      Responsable Produit & Innovation @ Korbyx (AI consulting & product, Paris)
-focus:     agentic systems (MCP, RAG, multi-agent), no-code builders, AI for SMEs
-also:      AI reliability & evaluation, data value inside companies
-languages: Arabic (native) · French (C2) · English (C1) · Turkish (B2)
-```
+<p align="center">
+  I design and ship <b>AI products</b>: agentic systems, SaaS platforms and automated workflows,<br>
+  taken from a business problem all the way to production.
+</p>
 
----
+<br>
 
-### What I build
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><b>Now</b><br><sub>Responsable Produit & Innovation<br>Korbyx, Paris</sub></td>
+    <td align="center" width="25%"><b>Focus</b><br><sub>Agentic systems<br>MCP · RAG · multi-agent</sub></td>
+    <td align="center" width="25%"><b>Also</b><br><sub>AI reliability & evaluation<br>Data value in companies</sub></td>
+    <td align="center" width="25%"><b>Languages</b><br><sub>Arabic · French C2<br>English C1 · Turkish B2</sub></td>
+  </tr>
+</table>
+
+<br>
+
+## Expertise
+
+<br>
 
 | | Area | In practice |
-|:-:|---|---|
-| 🧠 | **Agentic systems** | MCP servers and connectors, RAG pipelines, multi-agent orchestration (AutoGen) |
-| 🧩 | **AI products & SaaS** | Discovery, positioning, roadmap, specs, then shipping with Next.js / Supabase |
-| ⚙️ | **Automation** | Self-hosted n8n in production (Railway, Postgres), business workflows end to end |
-| 📊 | **Data to decisions** | Turning data a company already owns into decision support, without new hardware |
-| 🔍 | **Market & strategy** | Competitive benchmarks (100+ players), go-to-market, private LLM deployment theses |
+|:-:|:--|:--|
+| 🧠 | **Agentic systems** | MCP servers and connectors, RAG pipelines, multi-agent orchestration |
+| 🧩 | **AI products & SaaS** | Discovery, positioning, roadmap, specs, delivery with Next.js and Supabase |
+| ⚙️ | **Automation** | Self-hosted n8n in production, business workflows end to end |
+| 📊 | **Data to decisions** | Turning data a company already owns into decision support |
+| 🔍 | **Strategy & market** | Benchmarks of 100+ players, go-to-market, private LLM deployment |
 
----
+<br>
 
-### How I work
+## How I work
+
+<br>
 
 ```mermaid
 flowchart LR
-    A[Business problem] --> B[Discovery<br/>20-30 targeted questions]
-    B --> C[Benchmark<br/>& positioning]
-    C --> D[Prototype<br/>agents + workflows]
-    D --> E[Evaluate<br/>red-team, cross-model checks]
-    E --> F[Production<br/>& adoption]
+    A[Business problem] --> B[Discovery]
+    B --> C[Benchmark & positioning]
+    C --> D[Prototype: agents + workflows]
+    D --> E[Evaluation & red-teaming]
+    E --> F[Production & adoption]
     F -. feedback .-> B
     style A fill:#0A0A0A,color:#fff,stroke:#0A0A0A
     style F fill:#5C26FF,color:#fff,stroke:#5C26FF
 ```
 
----
+<br>
 
-### Featured work
+## Experience
+
+<br>
 
 <details open>
-<summary><b>Korbyx</b>, augmented consulting and product platform for SMEs</summary>
+<summary><b>Responsable Produit & Innovation</b> · Korbyx · <i>09/2025 → now</i></summary>
 <br>
 
-- **Phase 1, Augmented consulting**: continuous strategic advisory for SMEs, powered by AI. Positioning built on a benchmark of 100+ competitors across 9 categories, and a thesis on private LLMs and conversational data under the EU Data Governance Act.
-- **Phase 2, Builder**: a no-code builder for business apps, "where data becomes decisions". Connector architecture: MCP first, then Chift for French SaaS, Merge / Nango for write actions, Airbyte for analytics ingestion.
-- **Franchise network platform**: a product that helps franchisors animate and steer their networks.
-- **AI for sports clubs**: exploiting data a football or rugby club already owns, performance first, no capture hardware.
+AI consulting and product firm for SMEs ("augmented consulting").
+
+- Product owner of the augmented consulting platform: continuous AI-powered strategic advisory for SMEs.
+- Shaping **Builder**, a no-code business app builder where data becomes decisions. Connector architecture: MCP first, Chift for French SaaS, Merge / Nango for write actions, Airbyte for analytics.
+- Product work on a franchise network platform and on AI for sports clubs (performance data, no capture hardware).
+- Competitive benchmark of 100+ players across 9 categories, positioning and go-to-market.
+
+<br>
 </details>
 
 <details>
-<summary><b>Autogenstudio</b>, a virtual marketing agency run by LLM agents</summary>
+<summary><b>Chef de Projet IA & Growth</b> · DOMetVIE · <i>03/2025 → 03/2026</i></summary>
 <br>
 
-Multi-agent setup on AutoGen Studio where specialised agents (creative, data analysis, web research, content, image generation, scrapers) collaborate only when a task needs them. Skills include scraping (Selenium, BeautifulSoup), Google Trends, YouTube transcripts, sentiment analysis, PDF extraction and front-end generation. Models are routed by cost: GPT-4o mini for routine work, Mistral for research, DALL-E 3 for visuals.
+- AI projects and growth initiatives.
 
-[`→ repo`](https://github.com/GharbiW/Autogenstudio) · [`→ AutoGen v0.4 notebooks`](https://github.com/GharbiW/AutoGenv0.4)
+<br>
 </details>
 
 <details>
-<summary><b>Novea</b>, fan engagement and virtual museum for a football club</summary>
+<summary><b>Lead Innovation & Technologie</b> · Dolphx · <i>03/2022 → 09/2025</i></summary>
 <br>
 
-Next.js 14 + TypeScript demo for a fictional club: a virtual museum (4 rooms, 24+ exhibits), daily challenges, fan points, streaks, badges and leaderboards. Offline-first, no account, no personal data, a local rule-based AI engine with an optional OpenAI upgrade, and a repository layer ready for a database swap.
+- AI products, automation and digital transformation projects for clients.
 
-[`→ repo`](https://github.com/GharbiW/novea)
+<br>
 </details>
 
 <details>
-<summary><b>Automation & generative AI</b>, n8n and Stable Diffusion</summary>
+<summary><b>Founder & Editor-in-Chief</b> · Lesportif Magazine · <i>03/2018 → 02/2022</i></summary>
 <br>
 
-Production n8n workflows (self-hosted on Railway with Postgres) and experiments with image generation pipelines.
+- Founded and ran a digital sports media outlet in Sousse.
 
-[`→ n8n`](https://github.com/GharbiW/n8n) · [`→ StableDiffusion`](https://github.com/GharbiW/StableDiffusion)
+<br>
 </details>
 
 <details>
-<summary><b>Research</b>, data value, AI reliability, demarketing</summary>
+<summary><b>Earlier</b> · media, e-commerce, logistics, recruitment</summary>
 <br>
 
-- Master's thesis (M2, Université Paris-Saclay) on the value of companies' internal data.
-- Work on AI reliability and evaluation.
-- A 2026 update of my demarketing research, now connected to AI.
+- Media: Knooz FM.
+- E-commerce: LadyBio.
+- Logistics: route optimisation for Parnass Transport.
+- Recruitment.
+
+<br>
 </details>
 
----
-
-### Path
-
-<details>
-<summary><b>Experience timeline</b> (click to expand)</summary>
 <br>
 
-| Period | Role | Where |
-|---|---|---|
-| 09/2025 → now | **Responsable Produit & Innovation** | Korbyx, Paris |
-| 03/2025 → 03/2026 | **Chef de Projet IA & Growth** | DOMetVIE |
-| 03/2022 → 09/2025 | **Lead Innovation & Technologie** | Dolphx |
-| 03/2018 → 02/2022 | **Founder & Editor-in-Chief** | Lesportif Magazine, Sousse |
+## Selected work
 
-Earlier and alongside: recruitment, media (Knooz FM), e-commerce (LadyBio) and logistics (route optimisation for Parnass Transport).
+<br>
 
-**Education**: Master 2, Innovation, Digital et Conseil, Université Paris-Saclay.
-</details>
+### 🔒 Private & client work
 
----
+<br>
 
-### Toolbox
+| Project | Context | What I delivered |
+|:--|:--|:--|
+| **Augmented consulting platform** | SMEs, B2B SaaS | Product vision, roadmap, AI advisory flows |
+| **No-code business app builder** | SMEs, B2B SaaS | Product framing, connector architecture |
+| **Franchise network platform** | Franchisors | Product discovery and market analysis |
+| **AI for sports clubs** | Pro football / rugby | Positioning on clubs' existing data |
+| **Production automation stack** | Internal ops | n8n on Railway with Postgres, workflows in production |
+
+<br>
+
+### 🌐 Open source
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/GharbiW/Autogenstudio">Autogenstudio</a></b><br>
+      <sub>A virtual marketing agency run by LLM agents (AutoGen Studio). Creative, research, data, content, image and scraping agents that only collaborate when the task needs it.</sub><br><br>
+      <code>Python</code> <code>AutoGen</code> <code>OpenAI</code> <code>Mistral</code>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/GharbiW/novea">Novea</a></b><br>
+      <sub>Fan engagement app for a football club: virtual museum, daily challenges, points, badges and leaderboards. Offline-first, no personal data.</sub><br><br>
+      <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>shadcn/ui</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/GharbiW/AutoGenv0.4">AutoGen v0.4</a></b><br>
+      <sub>Notebooks exploring the AutoGen v0.4 multi-agent framework.</sub><br><br>
+      <code>Jupyter</code> <code>Python</code>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/GharbiW/n8n">n8n</a></b><br>
+      <sub>Automation workflows built with n8n.</sub><br><br>
+      <code>n8n</code> <code>Automation</code>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+### 📄 Research
+
+<br>
+
+- **The value of companies' internal data** in the age of AI, Master 2 thesis turned into a conceptual article.
+- **Demarketing and generative AI**: waitlists, invitations and usage limits as demand management.
+- **AI reliability and evaluation**.
+
+<br>
+
+## Education
+
+<br>
+
+- **Master 2, Innovation, Digital et Conseil**, Université Paris-Saclay
+- **Bachelor**, Istanbul Okan University
+
+<br>
+
+## Toolbox
+
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/Claude%20Code-0A0A0A?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
@@ -129,27 +207,19 @@ Earlier and alongside: recruitment, media (Knooz FM), e-commerce (LadyBio) and l
   <img src="https://img.shields.io/badge/Mistral-0A0A0A?style=flat-square" alt="Mistral">
   <img src="https://img.shields.io/badge/n8n-0A0A0A?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
   <img src="https://img.shields.io/badge/Cursor-0A0A0A?style=flat-square" alt="Cursor">
-  <br>
   <img src="https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Supabase-0A0A0A?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Python-0A0A0A?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Java%20%2F%20Spring-0A0A0A?style=flat-square&logo=spring&logoColor=white" alt="Java Spring">
   <img src="https://img.shields.io/badge/Railway-0A0A0A?style=flat-square&logo=railway&logoColor=white" alt="Railway">
-  <img src="https://img.shields.io/badge/Tailwind-0A0A0A?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
 </p>
 
----
-
-### Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=GharbiW&bg_color=0D1117&color=A0A0A0&line=5C26FF&point=FFFFFF&area=true&area_color=5C26FF&hide_border=true">
-  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=GharbiW&bg_color=FFFFFF&color=555555&line=5C26FF&point=0A0A0A&area=true&area_color=5C26FF&hide_border=true" width="100%">
-</picture>
+<br>
 
 ---
 
 <p align="center">
-  <sub>Want to talk about an AI product, an agentic workflow or data in your company? <a href="https://waelgharbi.com">waelgharbi.com</a> · <a href="https://linkedin.com/in/gharbiwael">LinkedIn</a></sub>
+  <sub>Let's talk about an AI product, an agentic workflow or the data in your company.<br>
+  <a href="https://waelgharbi.com">waelgharbi.com</a> · <a href="https://linkedin.com/in/gharbiwael">LinkedIn</a></sub>
 </p>
