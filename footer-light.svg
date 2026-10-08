@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" fill="none">
+<defs><radialGradient id="gl" cx="50%" cy="120%" r="70%"><stop offset="0" stop-color="#5C26FF" stop-opacity="0.2"/><stop offset="1" stop-color="#5C26FF" stop-opacity="0"/></radialGradient></defs>
+<style>text{font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif} .mono{font-family:&quot;JetBrains Mono&quot;,SFMono-Regular,Menlo,Consolas,monospace}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes ring{0%{r:6;opacity:.8}100%{r:22;opacity:0}}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}</style>
+<rect x=".5" y=".5" width="999" height="199" rx="20" fill="#FAFAFC" stroke="#E6E6EE"/><rect x=".5" y=".5" width="999" height="199" rx="20" fill="url(#gl)"><animate attributeName="opacity" values=".6;1;.6" dur="5s" repeatCount="indefinite"/></rect>
+<text x="500.0" y="84" text-anchor="middle" font-size="34" font-weight="800" letter-spacing="-1" fill="#0A0A0A" class="up">Let's build your next AI product<tspan fill="#5C26FF">.</tspan></text>
+<text x="500.0" y="122" text-anchor="middle" font-size="15" fill="#5A5A68" class="up" style="animation-delay:.15s">Agentic workflows, data strategy, product from zero to production.</text>
+<text x="500.0" y="160" text-anchor="middle" class="mono up" font-size="13" fill="#5C26FF" style="animation-delay:.3s" letter-spacing="1">WAELGHARBI.COM  →</text></svg>

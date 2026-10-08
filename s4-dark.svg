@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="92" viewBox="0 0 1000 92" fill="none"><style>text{font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif} .mono{font-family:&quot;JetBrains Mono&quot;,SFMono-Regular,Menlo,Consolas,monospace}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes ring{0%{r:6;opacity:.8}100%{r:22;opacity:0}}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+.ln{stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 1.6s .3s cubic-bezier(.2,.8,.2,1) forwards}@keyframes draw{to{stroke-dashoffset:0}}</style>
+<text x="2" y="30" class="mono up" font-size="13" fill="#5C26FF" letter-spacing="2">04  /  STACK</text>
+<text x="0" y="70" font-size="30" font-weight="700" letter-spacing="-.5" fill="#F5F5F7" class="up" style="animation-delay:.1s">Toolbox</text>
+<path d="M0 88H1000" stroke="#24242F"/><path d="M0 88H1000" stroke="#5C26FF" stroke-width="2" class="ln"/></svg>
